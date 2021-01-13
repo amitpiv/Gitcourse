@@ -1,0 +1,335 @@
+    1  cd ~/desktop
+    2  ll
+    3  whoami
+    4  hostname
+    5  pwd
+    6  cd ..
+    7  pwd
+    8  cd
+    9  pwd
+   10  ll 
+   11  cd
+   12  ls
+   13  cd Desktop
+   14  ll
+   15  less hi
+   16  cat hi
+   17  man vi
+   18  shutdown now 
+   19  sudo apt install tree
+   20  tree
+   21  cd
+   22  cd ~
+   23  cd ..
+   24  cd bin
+   25  ll
+   26  ll -rt
+   27  ll
+   28  ll cp
+   29  ls
+   30  ll
+   31  cd ..
+   32  cd -
+   33  cd
+   34  cat .alais
+   35  which .alias
+   36  alias ll
+   37  cd bin
+   38  cd ~
+   39  cd dev
+   40  cd bin
+   41  cd ..
+   42  cd bin
+   43  cd ..
+   44  cd dev/
+   45  ll
+   46  cd ../etc
+   47  cd
+   48  cd /
+   49  cd usr/
+   50  ll
+   51  cd 
+   52  cd /
+   53  cd home/
+   54  ll
+   55  cd amit/
+   56  cd ..
+   57  ls
+   58  cd ..
+   59  cd root/
+   60  sudo cd root
+   61  ll
+   62  sudo apt-get update --fix-missing
+   63  echo ~
+   64  echo \~
+   65  cd
+   66  ll
+   67  cat /proc/
+   68  cd /proc/
+   69  pwd
+   70  cat cpuinfo 
+   71  cd
+   72  cd ~
+   73  ll
+   74  cd Desktop/hello_linux/
+   75  nano hello.txt 
+   76  wc hello.txt 
+   77  cat hello.txt 
+   78  bc
+   79  date
+   80  date +%my
+   81  gedit .amit
+   82  ll
+   83  ls
+   84  ls -a
+   85  cd ../..
+   86  pwd
+   87  ll
+   88  ls -a
+   89  cd Desktop/hello_linux/
+   90  ls -al
+   91  date +%B
+   92  date ?
+   93  cd ~amit
+   94  cd Docs
+   95  mkdir Docs
+   96  cd Docs
+   97  gedit a.txt
+   98  gedit b.txt
+   99  cd ..
+  100  mkdir Logs
+  101  cd Logs
+  102  gedit login.lo
+  103  gedit error.log
+  104  ll
+  105  rename login.lo login.log
+  106  rnm
+  107  rm -f login.lo
+  108  gedit login.log
+  109  ll
+  110  ll -rt
+  111  man ls
+  112  ll -s
+  113  ll -rs
+  114  touch amit.txt
+  115  ll *.log
+  116  cd ..
+  117  man ls
+  118  ll -R *.txt
+  119  ll -R
+  120  ll
+  121  cd ~amit
+  122  ll -R *.log
+  123  ll *.log -R
+  124  cd Logs/
+  125  ll
+  126  ll *log
+  127  cd
+  128  ls -R *log
+  129  ls -R
+  130  ls -R *txt
+  131  cd Logs/
+  132  ll
+  133  ll *lo*
+  134  ll -s
+  135  ll -S
+  136  cd
+  137  pwd
+  138  cd ~
+  139  pwd
+  140  cd
+  141  pwd
+  142  cd /root
+  143  cd ~amit/
+  144  ll
+  145  echo hello world
+  146  echo "hello      world"
+  147  find ?
+  148  ? find
+  149  find
+  150  clear
+  151  alias ?
+  152  which alias
+  153  which find
+  154  type alias
+  155  ll
+  156  pwd
+  157  mkdir playground
+  158  gedit bashrc
+  159  gedit .bashrc
+  160  cd playground/
+  161  gedit .bashrc
+  162  cd ..
+  163  gedit .bashrc
+  164  echo *
+  165  ll
+  166  cd playground/
+  167  cd ..
+  168  cd playground/
+  169  touch a.txt b.txt c.pdf
+  170  cd ..
+  171  ls playground/*
+  172  ls /*
+  173  clear
+  174  cd playground/
+  175  touch .hidden.txt
+  176  ll *.txt
+  177  ll
+  178  ls -a *.txt
+  179  ll -h *.txt
+  180  ll -rt *.txt
+  181  ll .*txt
+  182  man ls
+  183  touch info10.txt
+  184  ll info*
+  185  ll info?.txt
+  186  ll info??.txt
+  187  mkdir dir1 dir2
+  188  cd dir1
+  189  touch test.txt
+  190  cd ..
+  191  ll -R
+  192  ll -R *.txt
+  193  ll *.pdf
+  194  touch stam.pdf
+  195  find -name *.pdf
+  196  echo find -name *.pdf
+  197  find -name *.pdf
+  198  find -name "*.pdf"
+  199  find *.pdf
+  200  man find
+  201  ll
+  202  cd dir1
+  203  ll
+  204  touch a.txt b.txt c.txt
+  205  cp dir1/* dir2
+  206  cd
+  207  man man
+  208  more /usr/include/stdio.h
+  209  cd /usr
+  210  cd include/
+  211  less stdio.h
+  212  ll -rt std*
+  213  ll
+  214  which stdio.h
+  215  find stdio.h
+  216  cd
+  217  which stdio.h
+  218  find stdio.h
+  219  cd
+  220  cd playground/
+  221  CD
+  222  cd
+  223  find / -name stdio.h
+  224  cd lib
+  225  cd /lib
+  226  ll
+  227  cd
+  228  cd playground/
+  229  geany 1.txt 2.txt
+  230  grep pivonia *.txt
+  231  grep name *.txt
+  232  grep -c name *.txt
+  233  grep -quiet stam *.txt
+  234  ll
+  235  cd Documents/
+  236  ll
+  237  cd firstproject/
+  238  ll
+  239  clear
+  240  git status
+  241  touch a b c
+  242  git status
+  243  git log
+  244  git commit -m "my second commit"
+  245  git status
+  246  git log
+  247  ll
+  248  geany test.txt 
+  249  git status
+  250  git add test.txt
+  251  git status
+  252  git add .
+  253  git status
+  254  git commit -m "add a b c files"
+  255  git status
+  256  git log
+  257  ll
+  258  git log
+  259  cd .git/
+  260  ll
+  261  less head
+  262  less HEAD 
+  263  cat HEAD 
+  264  cd branches/
+  265  ll
+  266  cd ..
+  267  cd logs/
+  268  ll
+  269  cat HEAD 
+  270  cd refs/
+  271  ll
+  272  cd heads/
+  273  ll
+  274  cat master 
+  275  cd ../..
+  276  cd
+  277  ll
+  278  cd Documents/
+  279  ll
+  280  git clone https://github.com/amitpiv/Gitcourse.git
+  281  ll
+  282  cd Gitcourse/
+  283  ll
+  284  git log
+  285  git remote add origin https://github.com/amitpiv/Gitcourse.git
+  286  touch a
+  287  git status
+  288  git add .
+  289  git commit -m "added file a"
+  290  git log
+  291  ll
+  292  cat README.md 
+  293  git log
+  294  git pull
+  295  ll
+  296  vi README.md 
+  297  git log
+  298  git status
+  299  git pull
+  300  git push origin master
+  301  cd ..
+  302  rm -rf Gitcourse/
+  303  git clone https://github.com/amitpiv/Gitcourse.git
+  304  cd Gitcourse/
+  305  git pull
+  306  git log
+  307  touch a
+  308  rm -f a
+  309  touch history
+  310  ll
+  311  git add .
+  312  git commit -m "added history file"
+  313  git log
+  314  git push 
+  315  git --version
+  316  cd ~
+  317  ll .ssh
+  318  ls -la .ssh
+  319  cd
+  320  pwd
+  321  ls -la .ssh
+  322  ssh-keygen -t rsa -b 4096
+  323  ll .ssh
+  324  cd .ssh/
+  325  ll
+  326  cat id_rsa.pub 
+  327  cd ../Documents/
+  328  cd Gitcourse/
+  329  ll
+  330  ssh -T git@github.com
+  331  ll
+  332  ll ../../.ssh/
+  333  git config remote.origin.url git@github.com:amitpiv/Gitcourse.git
+  334  ll
+  335  history > history

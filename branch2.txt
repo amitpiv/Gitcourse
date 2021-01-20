@@ -2,3 +2,4 @@ this is branch2
 creating a conflict
 main branch has been updated
 branchconflict updated branch2.txt
+one more conflict

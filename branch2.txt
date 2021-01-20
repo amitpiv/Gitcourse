@@ -1,4 +1,4 @@
-this is branch2
+this is branch2 part two
 creating a conflict
 branchconflict updated branch2.txt
 one more conflict

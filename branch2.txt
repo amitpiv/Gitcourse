@@ -1,4 +1,4 @@
-this is branch2 part two
+this is  not branch2 part two
 creating a conflict
 main branch has been updated
 branchconflict updated branch2.txt

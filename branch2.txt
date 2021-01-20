@@ -1,4 +1,5 @@
 this is  not branch2 part two
+checking
 creating a conflict
 branchconflict updated branch2.txt
 one more conflict
